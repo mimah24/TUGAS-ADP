@@ -15,7 +15,7 @@ def bersihkan_layar():
 def bendera(frame_num):
     bersihkan_layar()
     for y in range(tinggi_tiang):
-        # Tiang warna kuning
+        # Tiang 
         line = colored('|', 'yellow')
         if y < tinggi_bendera:
             for x in range(lebar_bendera):
